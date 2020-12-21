@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="msapplication-navbutton-color" content="#000000" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+  <meta name="description" content="SuprFam Official Website" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/icons/favicon.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Bluwyre</title>
+</head>
+
+<body>
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+  <header id="navbar">
+    <div>
+      <div class="logo">
+        <img src="./assets/logo.png" alt="" />
+      </div>
+      <button class="nav-button" onclick="toggleNavbar()">
+        <div></div>
+      </button>
+    </div>
+    <div>
+      <nav>
+        <li>Features</li>
+        <li>FAQ</li>
+        <li>Contact</li>
+        <button class="primary">
+          <a href="https://bsl.bluwyre.io" style="text-decoration: none;color:black;">Log In</a>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <div class="top-section">
+    <div class="grid-two">
+      <div class="content">
+        <h1>Profitably drive customer loyalty with every conversation</h1>
+        <p>
+          Deliver Incremental Revenue | Get Unprecedented Actionable Insight |
+          Deliver Higher NPS | Save Enormous Costs
+        </p>
+        <button class="primary">Request a Demo</button>
+      </div>
+      <div class="blob">
+        <img class="blob-svg" src="./assets/blob.svg" alt="" />
+        <div class="screen">
+          <img src="./assets/Screen.svg" alt="" />
+          <div class="chat-wrapper" id="chat-container">
+            <ul class="chat-message-list" id="chat-list">
+            </ul>
+          </div>
+        </div>
+        <img class="dots" src="./assets/dots.png" alt="" />
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill-opacity="1"
+        d="M0,160L60,149.3C120,139,240,117,360,117.3C480,117,600,139,720,149.3C840,160,960,160,1080,144C1200,128,1320,96,1380,80L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+  <div class="partners">
+    <div>
+      <h2 style="width: max-content">Featured By</h2>
+    </div>
+    <div>
+      <div class="profile-gallery js-flickity"
+        data-flickity-options='{"cellAlign": "left", "prevNextButtons": false,"pageDots": false, "autoPlay": true,"pauseAutoPlayOnHover": false, "pauseAutoPlayOnDrag":false, "wrapAround":true}'>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/1.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/2 (1).png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/3.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/4.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/5.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/7.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/8.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/10.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/11.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/15.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/17.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/21.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/22.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/24.png" alt="" />
+        </div>
+        <div class="profile-gallery-cell">
+          <img src="./assets/Partners/25.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-three">
+    <small class="label">WHY BLUWYRE?</small>
+    <h1>Why Choose Us?</h1>
+    <div class="grid-three">
+      <div class="card">
+        <div class="card-img">
+          <img src="./assets/graphic-design.svg" alt="" />
+        </div>
+        <div class="card-text">
+          <h3>Top notch technology</h3>
+          <p>
+            Stay at the top of the trends, we have used the latest tools and
+            frameworks to keep your web neat and nice
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">
+          <img src="./assets/checklist.svg" alt="" />
+        </div>
+        <div class="card-text">
+          <h3>Reduce development time</h3>
+          <p>
+            Because time matters. We have built Orenda to make your
+            development and launching process as fast as possible
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">
+          <img src="./assets/startup.svg" alt="" />
+        </div>
+        <div class="card-text">
+          <h3>Ready-to-use content</h3>
+          <p>
+            Orenda comes with multiple design interfaces which you can use
+            'right out of the box', you just focus on your business
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-four">
+    <div class="grid-two right">
+      <div class="content">
+        <h1>Easy customizable</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
+          delectus dolor est ipsam, itaque obcaecati omnis perspiciatis ullam
+          vero voluptatum? Ab commodi delectus, hic iure perferendis placeat?
+          Adipisci, laboriosam, nobis.
+        </p>
+      </div>
+      <div class="image">
+        <img src="./assets/2.png" alt="" data-aos="fade-left" />
+      </div>
+    </div>
+    <div class="border-wrap">
+      <svg version="1.1" id="animate-border" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 908.5 976.2"
+        style="enable-background: new 0 0 908.5 976.2" xml:space="preserve">
+        <style type="text/css">
+          .st0 {
+            fill: #fff;
+          }
+
+          .st1 {
+            opacity: 5e-2;
+          }
+
+          .st2 {
+            fill: #1a4a88;
+          }
+
+          .st3 {
+            opacity: 0.8;
+            fill: #ea7225;
+          }
+
+          .st4 {
+            fill: #d86928;
+          }
+
+          .st5 {
+            fill: #ea7225;
+          }
+
+          .st6 {
+            fill: #f89938;
+          }
+
+          .st7 {
+            fill: #fdfefe;
+          }
+
+          .st8 {
+            opacity: 0.5;
+            fill: #ea7225;
+          }
+
+          .st9 {
+            opacity: 0.75;
+            fill: #ea7225;
+          }
+
+          .st10 {
+            fill: none;
+            stroke: #1a4a88;
+            stroke-width: 1.5;
+            stroke-miterlimit: 10;
+          }
+
+          .st11 {
+            opacity: 0.1;
+          }
+
+          .st12 {
+            opacity: 0.85;
+            fill: #ea7225;
+          }
+
+          .st13 {
+            opacity: 0.81;
+            fill: #ea7225;
+          }
+
+          .st14 {
+            opacity: 0.4;
+            fill: #ea7225;
+          }
+
+          .st15 {
+            opacity: 0.7;
+            fill: #ea7225;
+          }
+
+          .st16 {
+            fill: none;
+            stroke: #f0577e;
+            stroke-width: 2;
+            stroke-miterlimit: 10;
+          }
+
+          .st17 {
+            fill: none;
+            stroke: #f0577e;
+            stroke-width: 2;
+            stroke-miterlimit: 10;
+            stroke-dasharray: 3.9904, 5.9856;
+          }
+        </style>
+        <g>
+          <g>
+            <g>
+              <path class="st16" d="M8.4,908.7c0,0,0.6,0.4,1.7,1.1"></path>
+              <path class="st17 path"
+                d="M15.2,912.9c36.7,22,207.6,117.4,147.2-44.2c-67.5-180.6-137.7-410.5,320-358 c457.7,52.5,448.6-207.4,383-331C808.1,71.8,725.1,26.6,704.9,16.8">
+              </path>
+              <path class="st16" d="M702.2,15.5c-1.2-0.5-1.8-0.8-1.8-0.8"></path>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div class="grid-two left">
+      <div class="image">
+        <img src="./assets/1.png" alt="" data-aos="fade-right" />
+      </div>
+      <div class="content">
+        <h1>Browser compatibility</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+          commodi eligendi esse et eveniet ex exercitationem facere, labore
+          molestias nostrum nulla obcaecati omnis perspiciatis quae qui
+          reprehenderit sapiente sunt vel.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="section-three faq">
+    <h1>Get to know more about <span>BluWyre</span></h1>
+    <div class="grid-60-40">
+      <ul class="faq-point">
+        <li class="faq-point-item">
+          <a class="faq-point-title" onclick="handleActiveFaq(this)"><i><svg xmlns="http://www.w3.org/2000/svg"
+                height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" /></svg></i>
+            What happens if bot fails to understand what my users want?
+          </a>
+          <p class="faq-point-content">
+            ORI is designed to handle 100% conversations using a plethora of
+            intelligence built into it. ORI bots learn continuously and
+            rapidly to avoid upsets. In the off-chance that the bot cannot
+            respond to the customer, it hands over the chat to an agent to
+            salvage the customer experience at that point. This hybrid
+            approach has humans as a backup when required.
+          </p>
+        </li>
+        <li class="faq-point-item">
+          <a class="faq-point-title" onclick="handleActiveFaq(this)">
+            <i><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" /></svg></i>
+            Do you support WhatsApp?
+          </a>
+          <p class="faq-point-content">
+            Yes, WhatsApp is supported on Ori platform where we can enable
+            WhatsApp Business API for your brand from Facebook on your behalf
+            or you can also connect with your existing WhatsApp business
+            number.
+          </p>
+        </li>
+        <li class="faq-point-item">
+          <a class="faq-point-title" onclick="handleActiveFaq(this)"><i><svg xmlns="http://www.w3.org/2000/svg"
+                height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" /></svg></i>
+            How secure is your system?
+          </a>
+          <p class="faq-point-content">
+            ORI is built on military-grade guidelines with conformity to all
+            security, regulatory and privacy norms. ORI can directly be
+            deployed within highly regulated sectors like Telecom, BFSI,
+            Defence etc.
+          </p>
+        </li>
+        <li class="faq-point-item">
+          <a class="faq-point-title" onclick="handleActiveFaq(this)"><i><svg xmlns="http://www.w3.org/2000/svg"
+                height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" /></svg></i>
+            Can the bot integrate with my systems?
+          </a>
+          <p class="faq-point-content">
+            ORI can integrate with any system through REST/SOAP APIs and comes
+            pre-integrated with top CRMs, marketing automation platforms,
+            payments systems, ticketing systems and more.
+          </p>
+        </li>
+        <li class="faq-point-item">
+          <a class="faq-point-title" onclick="handleActiveFaq(this)"><i><svg xmlns="http://www.w3.org/2000/svg"
+                height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" /></svg></i>
+            Time to deploy
+          </a>
+          <p class="faq-point-content">
+            Typically 2-4 weeks. ORI has built tech that can enable bots with
+            hyper-intelligence in a short span of time. ORI also comes
+            pre-built with over 2000+ use cases across industries.
+          </p>
+        </li>
+        <li class="faq-point-item">
+          <a class="faq-point-title" onclick="handleActiveFaq(this)"><i><svg xmlns="http://www.w3.org/2000/svg"
+                height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" /></svg></i>
+            What is the scale that ORI can handle?
+          </a>
+          <p class="faq-point-content">
+            ORI can handle 15,000 concurrent sessions and can scale further if
+            needed.
+          </p>
+        </li>
+      </ul>
+      <div class="image">
+        <img src="./assets/faq-img1.png" alt="" data-aos="fade-left" />
+      </div>
+    </div>
+  </div>
+  <div class="contact-section">
+    <div class="grid-two">
+      <div>
+        <form action="send_message.php" method="post">
+          <div class="card--grid">
+            <div class="input--div">
+              <input onfocus="addfocus(this)" onblur="addblur(this)" type="email" name="email" id="email" required />
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="input--div">
+            <textarea onfocus="addfocus(this)" onblur="addblur(this)" name="subject" id="subject"></textarea>
+            <label for="Subject">Subject</label>
+          </div>
+          <div class="input--div">
+            <textarea onfocus="addfocus(this)" onblur="addblur(this)" name="message" id="message"></textarea>
+            <label for="Your Message">Your Message</label>
+          </div>
+          <div style="text-align: center" id="ajaxDiv"></div>
+          <input type="submit" value="Send Message" id="submit" />
+        </form>
+      </div>
+      <div class="info">
+        <div>
+          <small class="label"> Contact us </small>
+          <h1>We'd like to hear from you</h1>
+        </div>
+        <p>
+          Don't hesitate to get in contact with us no matter your request. We
+          are here to help you.
+        </p>
+        <ul>
+          <li>
+            <i class="fa fa-map-marker"></i>
+            <p>123 Street, City,<br />Country</p>
+          </li>
+          <li>
+            <i class="fa fa-phone"></i>
+            <div>
+              <p>(123) 456-7890</p>
+              <p>(987) 654-3210</p>
+            </div>
+          </li>
+          <li>
+            <i class="fa fa-envelope"></i>
+            <p>
+              <a href="mailto:ayush.agarwalmng@gmail.com">support@5studios.net</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="divider">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1"
+          d="M0,64L120,101.3C240,139,480,213,720,213.3C960,213,1200,139,1320,101.3L1440,64L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+        </path>
+      </svg>
+    </div>
+    <div class="content">
+      <div>
+        <img src="./assets/logo.png" alt="">
+        <h4>We're building chatbots that learn from the frontline of your business. We've changed the way bots are built
+          and trained, for a revolutionary experience.</h4>
+        <button class="secondary" style="margin-top: 20px;">Watch Demo</button>
+      </div>
+      <div class="links">
+
+        <div>
+          <p>Lorem Ipsum</p>
+          <a href="">Lorem Ipsum</a>
+          <a href="">Lorem Ipsum</a>
+          <a href="">Lorem Ipsum</a>
+        </div>
+        <div>
+          <p>Lorem Ipsum</p>
+          <a href="">Lorem Ipsum</a>
+          <a href="">Lorem Ipsum</a>
+          <a href="">Lorem Ipsum</a>
+        </div>
+        <div>
+          <p>Lorem Ipsum</p>
+          <a href="">Lorem Ipsum</a>
+          <a href="">Lorem Ipsum</a>
+          <a href="">Lorem Ipsum</a>
+        </div>
+        <div class="main-links">
+          <a href="">Terms and Conditions<a>
+              <a href="">Privacy Policy</a>
+              <a href="">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="scroll-top" onclick="scrollToTop()" id="scroll-top">
+    <i class="fa fa-angle-up"></i>
+  </div>
+  <script src="./js/flickity.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous"></script>
+  <script src="./js/scripts.js"></script>
+</body>
+
+</html>
