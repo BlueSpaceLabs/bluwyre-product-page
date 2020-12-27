@@ -330,10 +330,10 @@ button.primary {
   place-self: center;
 }
 .top-section svg {
-  /* z-index: 2;
+  z-index: 2;
   position: relative;
-  bottom: -10px; */
-  display: none;
+  bottom: -10px;
+  /* display: none; */
 }
 .top-section path {
   /* fill: white; for featured */
