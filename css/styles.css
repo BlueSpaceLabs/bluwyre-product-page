@@ -306,20 +306,14 @@ button.primary {
   color: black;
   font-weight: 700;
   font-size: 15px;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 }
 
 .top-section {
   padding-top: 64px;
   /* background-image: linear-gradient(30deg, #AD0D14 30%,#E12905 60%,#FDAD1D); */
-  background-image: linear-gradient(
-    30deg,
-    #012060 10%,
-    #4d628f 50%,
-    #808faf 70%,
-    #b2bccf
-  );
+  background-image: linear-gradient(30deg, #012060 10%, #4d628f 50%, #808faf 70%, #b2bccf);
   overflow: hidden;
 }
 .grid-two {
@@ -339,7 +333,8 @@ button.primary {
   bottom: -10px;
 }
 .top-section path {
-  fill: white;
+  /* fill: white; for featured */
+  fill: #f4f8fb;
 }
 .top-section .blob {
   position: relative;
@@ -361,12 +356,18 @@ button.primary {
   transform: translate(-50%, -50%);
 }
 .top-section .blob .screen {
-  z-index: 2;
+  /* z-index: 2;
   width: 70%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  z-index: 2;
+  width: 70%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .chat-wrapper {
@@ -793,8 +794,8 @@ input#submit {
   color: white;
   font-weight: 700;
   font-size: 15px;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 }
 
 .contact-section > div {
@@ -892,21 +893,39 @@ button.secondary {
   color: white;
   font-weight: 700;
   font-size: 15px;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 }
 @keyframes move {
   0% {
     stroke-dashoffset: 1000;
   }
 }
-button.primary a{
+button.primary a {
   color: #000;
   text-decoration: none;
 }
-.sticky button.primary a{
+.sticky button.primary a {
   color: white;
   text-decoration: none;
+}
+.txt-type::after {
+  content: "";
+  display: inline-flex;
+  height: 1.2rem;
+  position: relative;
+  bottom: -4px;
+  width: 2px;
+  background-color: #fff;
+  animation: blink 0.5s linear infinite alternate;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @media screen and (max-width: 1100px) {
   .top-section .blob .blob-svg {
