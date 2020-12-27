@@ -900,6 +900,14 @@ button.secondary {
     stroke-dashoffset: 1000;
   }
 }
+button.primary a{
+  color: #000;
+  text-decoration: none;
+}
+.sticky button.primary a{
+  color: white;
+  text-decoration: none;
+}
 @media screen and (max-width: 1100px) {
   .top-section .blob .blob-svg {
     height: 150%;
