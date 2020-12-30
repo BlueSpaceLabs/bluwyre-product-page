@@ -295,6 +295,7 @@ header nav li {
   list-style: none;
   margin-right: 50px;
   color: inherit;
+  cursor: pointer;
 }
 button.primary {
   padding: 10px 20px;
