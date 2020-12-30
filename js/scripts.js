@@ -184,3 +184,13 @@ function init(){
         chatGenerator();
     },3000)
 }
+
+function handleScroll(val){
+    let node = document.getElementById(val);
+    let top = node.offsetTop - 68;
+    window.scrollTo({
+        top:top,
+        behavior:"smooth"
+    });
+    toggleNavbar();
+}
