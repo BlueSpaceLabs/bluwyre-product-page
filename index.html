@@ -36,9 +36,9 @@
     </div>
     <div>
       <nav>
-        <li>Features</li>
-        <li>FAQ</li>
-        <li>Contact</li>
+        <li onclick="handleScroll(`features`)">Features</li>
+        <li onclick="handleScroll(`faq`)">FAQ</li>
+        <li onclick="handleScroll(`contact`)">Contact</li>
         <button class="primary">
           <a href="https://bsl.bluwyre.io">Request a Demo</a>
         </button>
@@ -75,7 +75,7 @@
       </path>
     </svg>
   </div>
-  <div class="section-three">
+  <div class="section-three" id="features">
     <!-- <small class="label">WHY BLUWYRE?</small> -->
     <h1 style="margin-top:0px;padding-top:0px;">Why Choose Bluwyre?</h1>
     <div class="grid-three">
@@ -393,7 +393,7 @@
       </div>
     </div>
   </div>
-  <div class="section-three faq">
+  <div class="section-three faq" id="faq">
     <h1>Get to know more about <span>Bluwyre</span></h1>
     <div class="grid-60-40">
       <ul class="faq-point">
@@ -491,7 +491,7 @@
       </div>
     </div>
   </div>
-  <div class="contact-section">
+  <div class="contact-section" id="contact">
     <div class="grid-two">
       <div>
         <form action="send_message.php" method="post">
